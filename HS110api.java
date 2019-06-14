@@ -43,8 +43,7 @@ public class HS110api extends HS110base {
 
 		return erg;
 	}
-
-	//Date since 2015 allwed. You get an Error if you try to set a time befor 2015. idk why :(
+	
 	public boolean setTimezone(Date d) {
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(d);
